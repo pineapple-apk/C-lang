@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("pineapple");
+    int p,c,m
+    printf("this is percentage calculator");
+    printf("enter marks obtained in physics ");
 
     return 0;
 }
