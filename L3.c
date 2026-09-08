@@ -10,7 +10,7 @@ int main() {
     
     char l[4] ="xyz";
     const char m[4] ="abc";
-    printf("%s%s",l,m);
+    printf("%s\t%s",l,m);
 
     //string p="xyz";
     //const string q="abc";
