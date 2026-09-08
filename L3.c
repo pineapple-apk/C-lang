@@ -14,7 +14,7 @@ int main() {
 
     //string p="xyz";
     //const string q="abc";
-    //printf("%s%s",p,q);
+    //printf("%s\t%s",p,q);
 
     return 0;
 }
