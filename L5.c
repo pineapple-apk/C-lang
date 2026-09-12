@@ -1,7 +1,7 @@
 #include <stdio.h>
+#define H printf("hello world")
 
 int main() {
-    printf("pineapple");
-
+    H;
     return 0;
 }
