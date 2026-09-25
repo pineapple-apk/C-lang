@@ -2,7 +2,7 @@
 
 int main(){
 int d;
-printf("enter day");
+printf("enter day: ");
 scanf("%d",&d);
 
 if(d%7==1){
