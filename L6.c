@@ -1,37 +1,37 @@
 #include<stdio.h>
-int i=1
 
 int main(){
 int d;
 printf("enter day");
-scanf("%d",&day);
+scanf("%d",&d);
 
-if(d==1+7i){
-printf("Monday")
-};
+if(d%7==1){
+printf("Monday");
+}
 
-if(d==2+7i){
-printf("Tuesday")
-};
+if(d%7==2){
+printf("Tuesday");
+}
 
-if(d==3+7i){
-printf("Wednesday")
-};
+if(d%7==3){
+printf("Wednesday");
+}
 
-if(d==4+7i){
-printf("Thursday")
-};
+if(d%7==4){
+printf("Thursday");
+}
 
-if(d==5+7i){
-printf("Friday")
-};
+if(d%7==5){
+printf("Friday");
+}
 
-if(d==6+7i){
-printf("Saturday")
-};
+if(d%7==6){
+printf("Saturday");
+}
 
-if(d==7+7i){
-printf("Sunday")
-};
+if(d%7==7){
+printf("Sunday");
+}
 
 return 0;
+}
