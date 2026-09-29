@@ -4,12 +4,12 @@ int main(){
 char a;
 
 printf("is black really black ");
-printf("yes/no? ");
+printf("y/n? ");
 scanf("%c",&a);
 
 switch(a){
 
-case yes:
+case 'y':
 printf("you said %c that's true caus black is really black!! ",a);
 break;
 
