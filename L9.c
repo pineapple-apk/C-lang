@@ -1,28 +1,20 @@
 #include<stdio.h>
 
 int main(){
-int m,n;
+char a;
 
-printf("enter value of m: ");
-scanf("%d",&m);
-printf("enter value of n: ");
-scanf("%d",&n);
+printf("is black really black ");
+printf("yes/no? ");
+scanf("%c",&a);
 
+switch(a){
 
-if(m==n){
-printf("m=n");
-}
+case yes:
+printf("you said %c that's true caus black is really black!! ",a);
+break;
 
-if(m>n){
-printf("m>n");
-}
-
-if(m<n){
-printf("m<n");
-}
-
-else{
-printf("m!=n");
+default:
+printf("why u saying %c is black not really black?? ",a);
 }
 return 0;
 }
