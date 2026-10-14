@@ -14,7 +14,7 @@ scanf("%d",&a);
 sum(a,b);
 
 return 0;
-};
+}
 
 void sum(int a, int b){
 int c =a+b;
