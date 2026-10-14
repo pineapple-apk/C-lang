@@ -18,5 +18,5 @@ return 0;
 
 void sum(int a, int b){
 int c =a+b;
-return c;
+printf("%d",c)
 };
