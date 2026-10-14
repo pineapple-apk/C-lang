@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void sum(int,int)
+void sum(int,int);
 
 int a,b;
 
@@ -8,8 +8,8 @@ int main(){
 printf("enter value of a: ");
 scanf("%d",&a);
 
-printf("enter value of a: ");
-scanf("%d",&a);
+printf("enter value of b: ");
+scanf("%d",&b);
 
 sum(a,b);
 
@@ -18,5 +18,5 @@ return 0;
 
 void sum(int a, int b){
 int c =a+b;
-printf("%d",c)
+printf("%d",c);
 };
