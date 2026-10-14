@@ -2,21 +2,24 @@
 
 void sum(int,int);
 
-int a,b;
+int p,r,t;
 
 int main(){
-printf("enter value of a: ");
-scanf("%d",&a);
+printf("enter principle value: ");
+scanf("%d",&p);
 
-printf("enter value of b: ");
-scanf("%d",&b);
+printf("enter value of intrest: ");
+scanf("%d",&r);
 
-sum(a,b);
+printf("enter time period: ");
+scanf("%d",&t);
+
+sum(p,r,t);
 
 return 0;
 }
 
-void sum(int a, int b){
-int c =a+b;
+void sum(int p, int r, int t){
+int c =(p*r*t)/100;
 printf("%d",c);
 };
